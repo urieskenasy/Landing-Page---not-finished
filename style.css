@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON STYLING */
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* HEADER */
+
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+nav ul {
+    float: right;
+    line-height: 100px;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 20px 30px 0 30px;
+    display: inline-block;
+    padding: 0 20px 0 20px ;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: #5A5F73; 
+}
+nav ul li:hover {
+    background-color: #5a5f7398;
+    transform: scale(1.05);
+}
+nav ul li:nth-of-type(3) {
+    background-color: #498D47;
+}
+nav ul li:nth-of-type(3):hover {
+    background-color: #498d477b;
+}
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+}
+nav img {
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+    background-position: center;
+    border-radius: 15px;
+}
+nav img:hover {
+    transform: scale(1.05);
+}
+
+
+/* MAiN */
+
+.ul_Main ul { 
+    display: inline-block;
+    float: right;
+}
+
+.ul_Main ul li {
+    margin: 40px 60px 0 60px;
+    display: inline-block;
+}
+.ul_Main ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.ul_Main ul li a:hover {
+    font-size: 1.55rem;
+}
+
+.Header_Main {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+.Header_Main h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.Header_Main h1:hover {
+    font-size: 1.55rem;
+}
+.Header_Main #email {
+    width: 300px;
+    height: 30px;
+    margin: 0 0 10px 5.5vw;
+    border-radius: 5px;
+}
+.Header_Main #email:hover {
+    transform: scale(1.05);
+}
+.Header_Main p {
+    width: 150px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #F1C425;
+    text-align: center;
+    margin-left: 9vw;
+    padding: 10px;
+    line-height: 5px;
+    margin-bottom: 150px;
+}
+.Header_Main p:hover {
+    transform: scale(1.05);
+}
+
+#details {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 25px;
+}
+
+.icon {
+    display: inline;
+    font-size: 3rem;
+    color: orange;
+    float: left;
+    padding-right: 50px;
+}
+.icon:first-of-type {
+    padding-right: 75px;
+}
+.details {
+    margin: 40px;
+}
+
+
+#prices {
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+#prices div {
+    width: 30%;
+    float: left;
+    border: solid black 0.5px;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+#prices div h2, h3, p {
+    text-align: center;
+}
+#prices div h3 {
+    background-color: #DDDDDD;
+    padding: 20px;
+    font-size: 1rem;
+}
+#prices div h2 {
+    padding: 20px;
+}
+#prices div p {
+     padding-bottom: 10px;
+}
+.select {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 6vw;
+    background-color: #F1C425;
+}
+.select:hover {
+    background-color: orange;
+}
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #DDDDDD;
+}
+footer ul li {
+    display: inline-block;
+    float: right;
+    margin: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+footer p {
+    padding: 10px;
+}
+
+
